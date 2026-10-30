@@ -1,0 +1,53 @@
+# Local environment and configuration
+.env
+.env.*
+!.env.example
+*.local.json
+local/
+
+# Credentials and cryptographic material
+secrets/
+credentials/
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+
+# Unreviewed input, exports, logs and local databases
+private/
+data/raw/
+exports/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Office documents and mail archives are outside this lab's publishing scope
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.pst
+*.ost
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Review placeholder-only example configuration before publishing it.
+# .gitignore is not a secret scanner and does not affect tracked history.
